@@ -1,4 +1,4 @@
-# 🐼 Pandas Code Explanation with Function Purpose
+# Step-by-Step Explanation with Function Purpose
 
 This code uses **Pandas** to work with a CSV file. Below is a breakdown of what each line does — including whether it falls under **data reading**, **cleaning**, **exploration**, or **analysis**.
 
