@@ -1,0 +1,101 @@
+Order ID,Order Date,Customer ID,City,Product Category,Sales,Profit,Discount,Quantity,Segment
+ORD-1001,18/11/2024,CUST-199,Mumbai,Technology,2704.94,-708.51,0.2,1,Corporate
+ORD-1002,20/10/2024,CUST-653,Hyderabad,Office Supplies,1397.35,313.19,0.01,8,Consumer
+ORD-1003,23/09/2024,CUST-712,Chennai,Office Supplies,2810.9,518.84,0.08,7,Home Office
+ORD-1004,29/07/2024,CUST-148,Hyderabad,Office Supplies,4667.93,814.57,0.07,8,Home Office
+ORD-1005,31/07/2024,CUST-539,Delhi,Technology,3830.57,-569.12,0.02,9,Corporate
+ORD-1006,23/03/2025,CUST-817,Bangalore,Furniture,3144.19,-906.85,0.17,5,Consumer
+ORD-1007,08/06/2025,CUST-950,Hyderabad,Furniture,3669.32,-444.84,0.01,7,Consumer
+ORD-1008,04/08/2024,CUST-959,Hyderabad,Office Supplies,4485.28,76.07,0.12,4,Corporate
+ORD-1009,27/07/2024,CUST-524,Delhi,Office Supplies,1921.8,-167.98,0.29,9,Corporate
+ORD-1010,20/05/2025,CUST-937,Chennai,Technology,2977.11,-972.7,0.13,8,Consumer
+ORD-1011,17/01/2025,CUST-831,Mumbai,Technology,2667.68,-273.2,0.18,5,Corporate
+ORD-1012,16/06/2025,CUST-292,Pune,Furniture,3949.34,559.09,0.06,8,Home Office
+ORD-1013,18/01/2025,CUST-518,Pune,Technology,1279.95,-369.52,0.1,8,Home Office
+ORD-1014,16/05/2025,CUST-123,Delhi,Office Supplies,3861.84,348.43,0.1,6,Corporate
+ORD-1015,19/08/2024,CUST-993,Hyderabad,Furniture,2064.14,161.97,0.01,5,Corporate
+ORD-1016,22/04/2025,CUST-862,Delhi,Office Supplies,191.97,0.15,0.28,9,Home Office
+ORD-1017,05/08/2024,CUST-222,Hyderabad,Office Supplies,3088.85,-501.24,0.19,7,Home Office
+ORD-1018,01/08/2024,CUST-578,Chennai,Furniture,4794.32,-366.55,0.27,4,Corporate
+ORD-1019,25/10/2024,CUST-403,Chennai,Office Supplies,2279.05,-197.48,0.17,1,Home Office
+ORD-1020,10/08/2024,CUST-317,Delhi,Office Supplies,2424.49,339.68,0.02,7,Corporate
+ORD-1021,02/11/2024,CUST-526,Mumbai,Furniture,4537.78,-837.16,0.06,1,Home Office
+ORD-1022,01/07/2025,CUST-822,Mumbai,Furniture,1313.13,-52.24,0.21,3,Home Office
+ORD-1023,17/10/2024,CUST-497,Hyderabad,Office Supplies,4003.77,-16.96,0.29,3,Consumer
+ORD-1024,26/06/2025,CUST-236,Chennai,Office Supplies,3986.65,-76.27,0.1,2,Home Office
+ORD-1025,01/08/2024,CUST-124,Pune,Technology,4965.62,-1759.57,0.25,5,Corporate
+ORD-1026,06/06/2025,CUST-580,Mumbai,Furniture,213.11,14.77,0.04,3,Corporate
+ORD-1027,07/11/2024,CUST-146,Chennai,Technology,113.41,-6.34,0.22,6,Corporate
+ORD-1028,01/06/2025,CUST-296,Delhi,Furniture,3585.46,-360.97,0.13,2,Home Office
+ORD-1029,04/02/2025,CUST-852,Bangalore,Furniture,3770.31,-447.86,0,10,Home Office
+ORD-1030,16/04/2025,CUST-386,Bangalore,Office Supplies,4687.73,-586.67,0.17,2,Consumer
+ORD-1031,14/05/2025,CUST-419,Chennai,Furniture,480.65,-90.49,0.08,10,Corporate
+ORD-1032,27/05/2025,CUST-397,Mumbai,Technology,3425.46,-834.3,0.24,10,Corporate
+ORD-1033,04/06/2025,CUST-915,Bangalore,Technology,835.22,-140.37,0.11,6,Consumer
+ORD-1034,26/11/2024,CUST-753,Pune,Office Supplies,4724.52,-424.94,0.08,9,Corporate
+ORD-1035,09/11/2024,CUST-761,Bangalore,Office Supplies,1882.66,379.36,0.05,7,Corporate
+ORD-1036,13/02/2025,CUST-842,Delhi,Furniture,393.4,0.4,0,8,Home Office
+ORD-1037,09/10/2024,CUST-920,Mumbai,Furniture,4285.67,-243.7,0.24,1,Home Office
+ORD-1038,12/07/2025,CUST-587,Delhi,Technology,1904.02,-855.13,0.26,5,Corporate
+ORD-1039,25/12/2024,CUST-956,Delhi,Furniture,3355.57,-425.82,0.07,2,Consumer
+ORD-1040,04/02/2025,CUST-550,Delhi,Technology,4552.93,-1541.49,0.25,5,Consumer
+ORD-1041,06/08/2024,CUST-114,Chennai,Furniture,2157.24,-475.08,0.2,6,Corporate
+ORD-1042,30/05/2025,CUST-789,Chennai,Furniture,483.46,-2.88,0.2,9,Home Office
+ORD-1043,26/12/2024,CUST-462,Delhi,Office Supplies,1100.96,-357.81,0.29,8,Consumer
+ORD-1044,13/11/2024,CUST-428,Delhi,Technology,3115.29,-400.18,0.25,8,Corporate
+ORD-1045,02/10/2024,CUST-242,Mumbai,Furniture,3154.9,273.25,0.03,8,Corporate
+ORD-1046,17/04/2025,CUST-585,Mumbai,Office Supplies,3174.58,-1010.09,0.22,10,Corporate
+ORD-1047,13/02/2025,CUST-125,Pune,Technology,1884.95,-328.12,0.07,4,Home Office
+ORD-1048,11/10/2024,CUST-896,Bangalore,Furniture,4086.34,-482.04,0.28,3,Corporate
+ORD-1049,21/05/2025,CUST-962,Pune,Office Supplies,3813.97,-1172.85,0.29,9,Corporate
+ORD-1050,22/07/2025,CUST-785,Pune,Office Supplies,4163.52,-875.21,0.11,8,Corporate
+ORD-1051,05/01/2025,CUST-892,Hyderabad,Technology,4566.44,-85.05,0.05,2,Consumer
+ORD-1052,16/04/2025,CUST-648,Pune,Technology,307.96,-127.91,0.26,3,Consumer
+ORD-1053,11/08/2024,CUST-464,Mumbai,Furniture,4346.74,-961.68,0.1,3,Consumer
+ORD-1054,17/08/2024,CUST-521,Mumbai,Technology,2690.09,-297.06,0.11,5,Corporate
+ORD-1055,27/10/2024,CUST-678,Hyderabad,Technology,2465.49,-95.31,0.28,5,Consumer
+ORD-1056,10/01/2025,CUST-975,Bangalore,Technology,2067.5,-60.9,0.17,2,Home Office
+ORD-1057,25/12/2024,CUST-212,Bangalore,Furniture,4112.54,-1404.74,0.25,1,Consumer
+ORD-1058,23/12/2024,CUST-650,Hyderabad,Technology,4625.09,-553.58,0.25,4,Consumer
+ORD-1059,17/11/2024,CUST-417,Pune,Office Supplies,2860.18,16.62,0.24,8,Home Office
+ORD-1060,20/09/2024,CUST-847,Mumbai,Furniture,198.22,-59.7,0.17,8,Home Office
+ORD-1061,18/08/2024,CUST-381,Hyderabad,Office Supplies,173.26,6.53,0.05,2,Corporate
+ORD-1062,03/02/2025,CUST-282,Hyderabad,Office Supplies,4405.4,-417.43,0.28,7,Consumer
+ORD-1063,22/12/2024,CUST-458,Hyderabad,Technology,3148.49,-964.04,0.21,5,Consumer
+ORD-1064,29/11/2024,CUST-621,Pune,Technology,977.74,-160.59,0.12,2,Consumer
+ORD-1065,15/07/2025,CUST-657,Hyderabad,Technology,4900.65,-1043.91,0.22,10,Corporate
+ORD-1066,19/02/2025,CUST-855,Pune,Furniture,3691.2,-1664.06,0.28,10,Home Office
+ORD-1067,08/01/2025,CUST-686,Chennai,Furniture,4601.64,-802.71,0.03,9,Consumer
+ORD-1068,19/10/2024,CUST-376,Bangalore,Office Supplies,1240.83,-202.7,0.23,9,Corporate
+ORD-1069,22/04/2025,CUST-305,Chennai,Technology,4791.99,-852.77,0.05,10,Consumer
+ORD-1070,25/02/2025,CUST-609,Hyderabad,Technology,1514.24,-439.15,0.13,5,Consumer
+ORD-1071,09/07/2025,CUST-757,Pune,Office Supplies,3445.57,-696.94,0.16,8,Home Office
+ORD-1072,28/01/2025,CUST-174,Chennai,Furniture,3905.33,-656.02,0.09,8,Home Office
+ORD-1073,30/10/2024,CUST-184,Hyderabad,Technology,2324.17,-122.68,0.11,5,Home Office
+ORD-1074,30/12/2024,CUST-618,Hyderabad,Office Supplies,1034.17,-374.87,0.22,3,Corporate
+ORD-1075,28/08/2024,CUST-681,Delhi,Technology,1166.38,45.34,0.22,5,Corporate
+ORD-1076,17/03/2025,CUST-878,Hyderabad,Office Supplies,3814.32,507.48,0.05,2,Home Office
+ORD-1077,14/07/2025,CUST-780,Bangalore,Furniture,2090.71,-435.87,0.29,10,Corporate
+ORD-1078,10/12/2024,CUST-501,Chennai,Technology,1003.23,-423.63,0.29,6,Home Office
+ORD-1079,24/04/2025,CUST-743,Pune,Office Supplies,713.46,-39.29,0.26,7,Consumer
+ORD-1080,06/04/2025,CUST-868,Chennai,Office Supplies,2327.1,-579.39,0.17,3,Home Office
+ORD-1081,31/05/2025,CUST-143,Hyderabad,Furniture,3606.18,-226.99,0.28,10,Home Office
+ORD-1082,10/07/2025,CUST-325,Chennai,Technology,4560.09,-225.13,0.1,4,Home Office
+ORD-1083,04/01/2025,CUST-360,Mumbai,Technology,1547.86,-673.23,0.29,10,Corporate
+ORD-1084,21/10/2024,CUST-758,Delhi,Furniture,3088.95,-268.06,0.02,7,Home Office
+ORD-1085,29/01/2025,CUST-685,Bangalore,Technology,2855.67,-786.62,0.13,6,Home Office
+ORD-1086,12/12/2024,CUST-489,Hyderabad,Technology,3542.18,69.6,0.27,1,Consumer
+ORD-1087,22/05/2025,CUST-198,Chennai,Office Supplies,4281.7,-238.24,0.01,9,Consumer
+ORD-1088,15/03/2025,CUST-202,Pune,Technology,2003.99,-261.26,0.16,8,Home Office
+ORD-1089,05/01/2025,CUST-186,Bangalore,Furniture,4049.18,91.7,0.25,5,Home Office
+ORD-1090,06/06/2025,CUST-140,Mumbai,Furniture,3231.63,-866.47,0.27,6,Consumer
+ORD-1091,12/12/2024,CUST-632,Mumbai,Furniture,4395.43,-39.94,0.17,4,Home Office
+ORD-1092,17/06/2025,CUST-813,Chennai,Technology,1651.02,-51.74,0.21,8,Corporate
+ORD-1093,03/12/2024,CUST-956,Pune,Office Supplies,625.07,84.6,0.12,1,Home Office
+ORD-1094,07/09/2024,CUST-172,Mumbai,Technology,627.27,-58.44,0.23,9,Corporate
+ORD-1095,02/10/2024,CUST-812,Hyderabad,Office Supplies,567.76,-133.85,0.09,3,Corporate
+ORD-1096,16/09/2024,CUST-125,Mumbai,Technology,1003.39,-46.54,0.18,8,Consumer
+ORD-1097,05/07/2025,CUST-430,Hyderabad,Office Supplies,3374.67,833.82,0.04,5,Consumer
+ORD-1098,28/01/2025,CUST-697,Hyderabad,Furniture,1298.47,184.93,0.13,6,Corporate
+ORD-1099,28/11/2024,CUST-613,Delhi,Technology,3843.67,-1440.71,0.26,2,Home Office
+ORD-1100,06/05/2025,CUST-493,Delhi,Technology,1965.26,-482.23,0.14,10,Home Office
