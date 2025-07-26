@@ -1,6 +1,6 @@
-# Step-by-Step Explanation with Function Purpose
+# 🧠 Step-by-Step Data Load & Initial Cleaning Explanation
 
-This code uses **Pandas** to work with a CSV file. Below is a breakdown of what each line does — including whether it falls under **data reading**, **cleaning**, **exploration**, or **analysis**.
+This code uses **Pandas** to work with a CSV file. Below is a breakdown of what each line does — categorized as **reading**, **cleaning**, **exploration**, or **analysis**.
 
 ---
 
@@ -10,8 +10,8 @@ This code uses **Pandas** to work with a CSV file. Below is a breakdown of what 
 import pandas as pd
 ```
 
-- ✅ **Function:** Library Import
-- 🔹 **Purpose:** Enables you to use pandas functions in your code.
+- ✅ Function: Library Import  
+- 🔹 Purpose: Enables you to use pandas functions in your code.
 
 ---
 
@@ -21,8 +21,8 @@ import pandas as pd
 df = pd.read_csv('data/generated_sales_data.csv')
 ```
 
-- ✅ **Function:** Data Reading
-- 🔹 **Purpose:** Loads data from a CSV file into a DataFrame (`df`).
+- ✅ Function: Data Reading  
+- 🔹 Purpose: Loads data from a CSV file into a DataFrame (`df`).
 
 ---
 
@@ -32,8 +32,8 @@ df = pd.read_csv('data/generated_sales_data.csv')
 print("Data loaded successfully!")
 ```
 
-- ✅ **Function:** Status Message
-- 🔹 **Purpose:** Confirms data is loaded.
+- ✅ Function: Status Message  
+- 🔹 Purpose: Confirms data is loaded.
 
 ---
 
@@ -43,8 +43,8 @@ print("Data loaded successfully!")
 print(df.head())
 ```
 
-- ✅ **Function:** Data Exploration
-- 🔹 **Purpose:** Lets you preview the first few rows of the dataset.
+- ✅ Function: Data Exploration  
+- 🔹 Purpose: Lets you preview the first few rows of the dataset.
 
 ---
 
@@ -54,9 +54,9 @@ print(df.head())
 print(df.info())
 ```
 
-- ✅ **Function:** Data Exploration & Quality Check
-- 🔹 **Purpose:** Shows column names, data types, non-null counts.
-- 🔹 **Usefulness:** Helps identify missing data and data types.
+- ✅ Function: Data Exploration & Quality Check  
+- 🔹 Purpose: Shows column names, data types, and non-null counts.  
+- 🔹 Usefulness: Helps identify missing data and data types.
 
 ---
 
@@ -66,9 +66,9 @@ print(df.info())
 print(df.describe())
 ```
 
-- ✅ **Function:** Data Analysis
-- 🔹 **Purpose:** Generates summary statistics like mean, min, max, etc.
-- 🔹 **Usefulness:** Understands the distribution and spread of numeric data.
+- ✅ Function: Data Analysis  
+- 🔹 Purpose: Generates summary statistics like mean, min, max, etc.  
+- 🔹 Usefulness: Understands the distribution and spread of numeric data.
 
 ---
 
@@ -78,9 +78,9 @@ print(df.describe())
 print(df.columns)
 ```
 
-- ✅ **Function:** Data Exploration
-- 🔹 **Purpose:** Lists all column names.
-- 🔹 **Usefulness:** Helps know what features you’re working with.
+- ✅ Function: Data Exploration  
+- 🔹 Purpose: Lists all column names.  
+- 🔹 Usefulness: Helps know what features you’re working with.
 
 ---
 
@@ -90,9 +90,9 @@ print(df.columns)
 print(df.shape)
 ```
 
-- ✅ **Function:** Data Exploration
-- 🔹 **Purpose:** Tells you the number of rows and columns.
-- 🔹 **Usefulness:** Helps understand dataset size.
+- ✅ Function: Data Exploration  
+- 🔹 Purpose: Tells you the number of rows and columns.  
+- 🔹 Usefulness: Helps understand dataset size.
 
 ---
 
@@ -102,37 +102,71 @@ print(df.shape)
 print(df.isnull().sum())
 ```
 
-- ✅ **Function:** Data Cleaning (Detection Phase)
-- 🔹 **Purpose:** Finds how many missing (null) values exist in each column.
-- 🔹 **Usefulness:** Helps decide what to fix or remove later.
+- ✅ Function: Data Cleaning (Detection Phase)  
+- 🔹 Purpose: Finds how many missing (null) values exist in each column.  
+- 🔹 Usefulness: Helps decide what to fix or remove later.
+
+---
+
+## 🧹 10. Drop a Column from the DataFrame
+
+```python
+print("--------------------------")
+print("                          ") 
+df.drop(columns=["Segment"], inplace=True)
+print("Dropped 'Segment' column from the DataFrame.")
+print("Columns now: ", df.columns)
+```
+
+- ✅ Function: Data Cleaning  
+- 🔹 Purpose: Permanently removes the 'Segment' column.  
+- 🔹 Usefulness: Keeps only relevant features for analysis.
+
+---
+
+## 🧹 11. Remove Duplicate Rows
+
+```python
+print("--------------------------")
+print("                          ")
+print("Length of the DataFrame before dropping duplicates:", len(df))
+df.drop_duplicates(inplace=True)
+print("Length of the DataFrame after dropping duplicates:", len(df))
+```
+
+- ✅ Function: Data Cleaning  
+- 🔹 Purpose: Identifies and drops duplicated rows.  
+- 🔹 Usefulness: Prevents double-counting in analysis.
 
 ---
 
 ## 📌 Summary of Code Actions
 
-| Code Section                  | Function Type           | Category           |
-|------------------------------|--------------------------|--------------------|
-| `import pandas as pd`        | Library Import           | Setup              |
-| `pd.read_csv()`              | File Reading             | Data Loading       |
-| `print("...")`               | Confirmation             | Status Output      |
-| `df.head()`                  | Preview Data             | Data Exploration   |
-| `df.info()`                  | Structure Check          | Data Exploration   |
-| `df.describe()`              | Summary Stats            | Data Analysis      |
-| `df.columns`                 | Column Overview          | Data Exploration   |
-| `df.shape`                   | Size Check               | Data Exploration   |
-| `df.isnull().sum()`          | Missing Value Check      | Data Cleaning Prep |
+| Code Section                             | Function Type           | Category           |
+|------------------------------------------|--------------------------|--------------------|
+| `import pandas as pd`                    | Library Import           | Setup              |
+| `pd.read_csv()`                          | File Reading             | Data Loading       |
+| `print("...")`                           | Confirmation             | Status Output      |
+| `df.head()`                              | Preview Data             | Data Exploration   |
+| `df.info()`                              | Structure Check          | Data Exploration   |
+| `df.describe()`                          | Summary Stats            | Data Analysis      |
+| `df.columns`                             | Column Overview          | Data Exploration   |
+| `df.shape`                               | Size Check               | Data Exploration   |
+| `df.isnull().sum()`                      | Missing Value Check      | Data Cleaning Prep |
+| `df.drop(columns=["Segment"])`           | Drop Unnecessary Column  | Data Cleaning      |
+| `df.drop_duplicates()`                   | Remove Duplicate Rows    | Data Cleaning      |
 
 ---
 
 ## ✅ Final Conclusion
 
-This script performs the **first essential steps** in a data analysis pipeline:
+This script performs the essential steps of a data analysis pipeline:
 
-1. 📂 **Reads the data** from file
-2. 🔍 **Explores** and understands data structure
-3. 📊 **Analyzes** numeric values with summary stats
-4. 🧹 **Detects** missing values to prepare for **cleaning**
+1. 📂 Reads the dataset  
+2. 👀 Explores its structure  
+3. 📊 Understands statistics  
+4. 🧹 Cleans unnecessary and duplicate data
 
-✅ You're now ready for the next phase: actual **data cleaning**, **filtering**, or **visualization**!
+You're now ready for the next steps: filtering, feature engineering, visualization, or modeling.
 
-Need help with that too? Just ask!
+Need help with any of those? Let me know!
